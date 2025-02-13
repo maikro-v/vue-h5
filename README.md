@@ -1,33 +1,18 @@
-# vue-h5-typescript
+# VueH5 - 现代化 Vue H5 项目模板
 
-This template should help get you started developing with Vue 3 in Vite.
+VueH5 是一个高效、灵活的 Vue 3 项目模板，基于 Vite、TypeScript 和最前沿的前端技术栈打造，专为快速开发而生。它融合了优雅的 UI 组件、自动化图标管理和灵活的权限控制，旨在为开发者提供一个高效、简洁且可扩展的开发环境。
 
-## Recommended IDE Setup
+## <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 64 64"><path fill="#ed4c5c" d="M52.382 5.075C40.137 3.203 24.137 28.036 9.213 20.497c-.582-1.575-1.143-3.158-1.725-4.73C25.077 19.105 33.07-2.995 50.658.345c.584 1.572 1.14 3.156 1.724 4.73"/><path fill="#ff8736" d="M54.105 9.804C43.762 7.786 22.512 31.453 10.938 25.227c-.585-1.573-1.14-3.157-1.725-4.73C26.802 23.835 34.794 1.734 52.382 5.075c.584 1.572 1.14 3.156 1.723 4.729"/><path fill="#ffce31" d="M55.83 14.535C45.762 12.744 27.086 38.25 12.662 29.957c-.585-1.573-1.142-3.157-1.725-4.73C28.525 28.566 36.52 6.467 54.105 9.805c.585 1.574 1.142 3.157 1.725 4.73"/><path fill="#83bf4f" d="M57.556 19.265c-9.711-1.521-31.086 25.813-43.171 15.422c-.584-1.572-1.139-3.157-1.723-4.73c17.585 3.341 25.579-18.762 43.168-15.422c.583 1.573 1.142 3.156 1.726 4.73"/><path fill="#275fd9" d="M59.278 23.995C48.22 22.161 28.595 50.453 16.109 39.418c-.584-1.574-1.144-3.156-1.725-4.73c17.588 3.338 25.582-18.761 43.171-15.422c.583 1.573 1.141 3.155 1.723 4.729"/><path fill="#9028e0" d="M61 28.726c-17.583-3.34-25.579 18.761-43.166 15.421c-.584-1.572-1.142-3.156-1.725-4.729c17.588 3.338 25.581-18.762 43.169-15.423c.583 1.575 1.142 3.158 1.722 4.731"/><g fill="#3e4347"><circle cx="5.168" cy="13.336" r="2.168"/><path d="m7.04 14.49l-2.56.929L22.186 64h2.896z"/><path d="m3.688 15.602l4.076-1.48l.37 1.017l-4.077 1.48z"/></g></svg> 核心特性
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **现代化技术栈**：基于 Vue 3 的 Composition API，结合 TypeScript 强类型支持和 Vite 的极速构建，提升开发体验和项目性能。
+- **移动端适配**：内置响应式布局和移动端优化，确保跨设备和不同屏幕尺寸上的优质用户体验。
+- **自动化图标管理**：集成 Iconify，支持按需自动导入超过 200,000 个图标，减少冗余资源加载，提升性能。
+- **内置权限系统**：提供灵活的权限管理模块，支持角色、路由权限配置，确保应用的安全性。
+- **优雅的UI设计与组件库**：集成tDesign作为UI框架，提供丰富的组件和精美的设计，帮助快速构建一致性高、用户体验优越的界面。
+- **UnoCSS 支持**：使用 UnoCSS 原子化 CSS 框架，按需生成样式，减少冗余 CSS 代码，提升页面加载速度和性能。
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-yarn
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-yarn dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-yarn build
-```
+## 为什么选择VueH5？
+- **转为H5而生**：高度适配移动端。
+- **快速启动**：开箱即用，减少了大量配置，开发者可以专注于功能开发。
+- **高效扩展**：灵活的权限系统和UI组件扩展，满足不同应用的需求。
+- **极致性能**：Vite + TypeScript + UnoCSS 构建，确保项目性能和可维护性。
